@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import App from './App';
+import './fonts/Aileron-Heavy.otf';
+import './fonts/Aileron-Light.otf';
+import './fonts/Hurricane.otf';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
