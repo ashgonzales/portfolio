@@ -1,0 +1,73 @@
+#projects {
+  background-color: #f1f1f1;
+  padding-bottom: 50px;
+}
+
+.project-container {
+  max-width: 60%;
+  margin: 0 auto;
+  font-family: "Aileron Light";
+  font-weight: 500;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h3 {
+  font-family: "Hurricane";
+  font-size: 34px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-text h1 {
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+.project-text h1,
+.project-descr h2 {
+  margin-bottom: 1rem;
+  color: #3b3b3b;
+}
+
+.project-descr h4 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.2rem;
+}
+
+.project-descr a {
+  color: #b689ff;
+}
+
+.project-gradient {
+  height: 0.4rem;
+  width: 50%;
+  margin-bottom: 1rem;
+  background: #7f7fd5;
+  background: linear-gradient(270deg, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  vertical-align: middle;
+}
+
+.img:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.5s;
+}

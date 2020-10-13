@@ -6,6 +6,7 @@ import App from './App';
 import './fonts/Aileron-Heavy.otf';
 import './fonts/Aileron-Light.otf';
 import './fonts/Hurricane.otf';
+import './fonts/LANENAR_.ttf';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

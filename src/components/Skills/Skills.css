@@ -1,0 +1,30 @@
+.skills-container {
+  width: 100%;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer-gradient {
+  height: 0.5rem;
+  width: 60%;
+  margin: auto auto 2rem;
+  background: #ef32d9;
+  background: linear-gradient(270deg, #89fffd, #ef32d9);
+}
+
+.skills-container h4 {
+  font-family: 'Hurricane';
+  font-size: 28px;
+}
+
+.skills-container p {
+  width: 100%;
+  font-family: 'Aileron-Light';
+  text-align: center;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+span {
+  font-weight: 900;
+}

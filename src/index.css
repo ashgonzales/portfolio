@@ -5,10 +5,15 @@
 
 @font-face {
   font-family: 'Aileron-Light';
-  src: local('Aileron-Heavy'), url(./fonts/Aileron-Heavy.otf) format('truetype');
+  src: local('Aileron-Light'), url(./fonts/Aileron-Light.otf) format('truetype');
 }
 
 @font-face {
   font-family: 'Hurricane';
   src: local('Hurricane'), url(./fonts/Hurricane.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lane - Narrow Regular';
+  src: local('LANENAR_'), url(./fonts/LANENAR_.ttf) format('truetype');
 }

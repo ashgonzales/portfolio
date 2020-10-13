@@ -2,28 +2,102 @@
   display: flex;
   max-width: 80%;
   margin: 0 auto;
+  margin-top: 40px;
 }
 
 .bio-image {
-  max-width: 100%;
+  max-width: 250px;
   height: auto;
   object-fit: contain;
   margin: 20px;
-  margin-right: 0;
+  margin-right: 25px;
 }
 
 .title-text {
-  font-size: 4rem;
+  font-size: 3.7rem;
+  line-height: 3rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
 #bio-text {
   font-family: 'Aileron-Light';
+  font-weight: 400;
+  line-height: 1.5rem;
   margin: 20px;
+  margin-top: 20px;
 }
 
 .highlight {
   color: #a77ee8;
   font-size: inherit;
+}
+
+@media only screen and (max-width: 1080px) {  
+  .bio-image {
+    max-width: 370px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 980px) {  
+  .about-container {
+    display: flex;
+    max-width: 90%;
+  }
+
+  .bio-image {
+    max-width: 380px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+
+  #bio-text {
+    line-height: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 890px) {  
+  .about-container {
+    display: flex;
+    max-width: 90%;
+  }
+
+  .bio-image {
+    max-width: 380px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .about-container {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+  .bio-image {
+    max-width: 350px;
+    height: auto;
+    object-fit: contain;
+    
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .about-container {
+    display: block;
+    max-width: 98%;
+    margin: 0 auto;
+  }
+  
+  .bio-image {
+    max-width: 87%;
+    height: auto;
+    object-fit: contain;
+  }
 }

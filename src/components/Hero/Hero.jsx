@@ -7,7 +7,6 @@ const Hero = () => {
   return (
     <div className="hero">
       <Header />
-      
     </div>
   );
 };
