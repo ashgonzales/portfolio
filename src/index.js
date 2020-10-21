@@ -1,21 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import './index.css';
-import App from './App';
-import './fonts/Aileron-Heavy.otf';
-import './fonts/Aileron-Light.otf';
-import './fonts/Hurricane.otf';
-import './fonts/LANENAR_.ttf';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import { ParallaxProvider } from "react-scroll-parallax";
+import "./index.css";
+import App from "./App";
+import "./fonts/Aileron-Heavy.otf";
+import "./fonts/Aileron-Light.otf";
+import "./fonts/Hurricane.otf";
+import "./fonts/LANENAR_.ttf";
+import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <ParallaxProvider>
       <App />
-    </Router>
+    </ParallaxProvider>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
