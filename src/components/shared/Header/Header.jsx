@@ -13,7 +13,7 @@ class Header extends Component {
     return (
       <nav className="header">
         <div className="container">
-          <h1 className="header-logo">Ash.</h1>
+          <h1 className="header-logo">acg</h1>
           <div className="menu-icon" onClick={this.handleClick}>
             <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
           </div>

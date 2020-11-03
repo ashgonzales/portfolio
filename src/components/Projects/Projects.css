@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 #projects {
   background-color: #f1f1f1;
   padding-bottom: 50px;
@@ -7,7 +10,7 @@
   max-width: 60%;
   margin: 0 auto;
   font-family: "Aileron Light";
-  font-weight: 500;
+  font-weight: 600;
   background-color: #f1f1f1;
   display: flex;
   flex-direction: column;
@@ -26,7 +29,8 @@
 }
 
 .project-text h1 {
-  font-size: 50px;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 40px;
   font-weight: 900;
   margin-top: 0;
 }
@@ -44,7 +48,11 @@
 }
 
 .project-descr a {
-  color: #b689ff;
+  color: #988eb1;
+}
+
+.project-descr {
+  margin-bottom: 4rem;
 }
 
 .project-gradient {

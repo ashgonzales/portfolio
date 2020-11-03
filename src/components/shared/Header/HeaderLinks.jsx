@@ -18,5 +18,10 @@ export const HeaderLinks = [
     title: "contact",
     url: '#contact',
     class: 'header-links'
+  },
+  {
+    title: "resume",
+    url: 'https://drive.google.com/file/d/1QX7wtyNs1Y8bwPQkn1yGVWaqIQRNvaPH/view?usp=sharing',
+    class: 'header-links'
   }
 ]
