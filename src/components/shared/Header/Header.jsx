@@ -23,9 +23,9 @@ class Header extends Component {
             {HeaderLinks.map((link, idx) => {
               return (
                 <li key={idx}>
-                  <a className={link.class} href={link.url}>
+                  <span className="header-span"><a className={link.class} href={link.url}>
                     {link.title}
-                  </a>
+                  </a></span>
                 </li>
               );
             })}

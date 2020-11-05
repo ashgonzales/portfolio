@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 #projects {
-  background-color: #f1f1f1;
+  background-color: #DDD7D7;
   padding-bottom: 50px;
 }
 
@@ -11,7 +11,7 @@
   margin: 0 auto;
   font-family: "Aileron Light";
   font-weight: 600;
-  background-color: #f1f1f1;
+  background-color: #DDD7D7;
   display: flex;
   flex-direction: column;
   justify-content: center;

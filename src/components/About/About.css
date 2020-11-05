@@ -3,9 +3,12 @@
 
 .about-container {
   display: flex;
+  align-items: center;
   max-width: 80%;
   margin: 0 auto;
   margin-top: 40px;
+  height: 100vh;
+  background-color: #D4B6B1;
 }
 
 .bio-image {
@@ -14,6 +17,8 @@
   object-fit: contain;
   margin: 20px;
   margin-right: 25px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 1px #494949;
 }
 
 .title-text {
@@ -21,72 +26,87 @@
   font-size: 3.3rem;
   line-height: 2.8rem;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 #bio-text {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
+  font-family: "Aileron Light", sans-serif;
+  font-weight: 600;
   line-height: 1.4rem;
-  margin: 20px;
-  margin-top: 30px;
+  margin: 10px;
+  margin-top: 20px;
 }
 
 .highlight {
-  color: #988eb1;
+  color: #FFFFFF;
   font-size: inherit;
 }
 
 @media only screen and (max-width: 1080px) {  
+  .about-container {
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+  }
+
   .bio-image {
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
     object-fit: contain;
     margin-right: 20px;
+    margin-bottom: 2px;
   }
 }
 
 @media only screen and (max-width: 980px) {  
   .about-container {
     display: flex;
+    align-items: center;
     max-width: 90%;
   }
 
   .bio-image {
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
     object-fit: contain;
     margin-right: 20px;
+    margin-bottom: 2px;
   }
 
-  #bio-text {
-    line-height: 1.4rem;
+  .title-text {
+    font-size: 2.8rem;
   }
 }
 
 @media only screen and (max-width: 890px) {  
   .about-container {
+    display: flex;
+    align-items: center;
     max-width: 90%;
   }
 
   .bio-image {
-    float: left;
-    max-width: 300px;
+    max-width: 250px;
+    margin-top: 12px;
+    margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
+  }
+}
+
+@media only screen and (max-width: 810px) {  
+  .title-text {
+    font-size: 2.5rem;
   }
 }
 
 @media only screen and (max-width: 780px) {
   .about-container {
-    display: block;
-    max-width: 80%;
-    margin-top: 40px;
+    margin: 0 auto;
   }
-  
+
   .bio-image {
-    max-width: 80%;
-    height: auto;
-    object-fit: contain;
+    float: right;
   }
 }
 
@@ -94,11 +114,20 @@
   .about-container {
     display: block;
     max-width: 98%;
+    height: auto;
     margin: 0 auto;
   }
   
   .bio-image {
-    max-width: 87%;
+    margin-left: 23px;
+    /* max-width: 87%; */
+    height: auto;
+    object-fit: contain;
+  }
+
+  #bio-text {
+    max-width: 85%;
+    /* margin-left: 20px; */
     height: auto;
     object-fit: contain;
   }
