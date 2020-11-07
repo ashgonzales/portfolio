@@ -125,7 +125,7 @@ a:active {
   }
 
   .header-menu.active {
-    background: #d4b6b1;
+    background: #D4B6B1;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

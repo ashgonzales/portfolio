@@ -3,6 +3,7 @@ import { HeaderLinks } from "./HeaderLinks";
 import "./Header.css";
 
 class Header extends Component {
+  
   state = { clicked: false };
 
   handleClick = () => {

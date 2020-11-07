@@ -21,7 +21,7 @@ export const HeaderLinks = [
   },
   {
     title: "resume",
-    url: 'https://drive.google.com/file/d/1QX7wtyNs1Y8bwPQkn1yGVWaqIQRNvaPH/view?usp=sharing',
+    url: 'https://drive.google.com/file/d/1WBdUGuca6DAQDYKehvKD93FxxgiTiyKK/view?usp=sharing',
     class: 'header-links'
   }
 ]
