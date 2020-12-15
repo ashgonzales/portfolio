@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 
 #projects {
   background-color: #DDD7D7;
@@ -29,38 +28,102 @@
 }
 
 .project-text h1 {
-  font-family: 'Abril Fatface', sans-serif;
+  font-family: "Abril Fatface", sans-serif;
   font-size: 40px;
   font-weight: 900;
-  margin-top: 0;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.project-text h1 {
+  letter-spacing: 0rem;
 }
 
 .project-text h1,
 .project-descr h2 {
-  margin-bottom: 1rem;
-  color: #3b3b3b;
+  color: #3B3B3B;
 }
 
 .project-descr h4 {
   font-size: 0.9rem;
   margin-bottom: 1rem;
   letter-spacing: 0.2rem;
-}
-
-.project-descr a {
-  color: #988eb1;
+  margin-left: 6px;
 }
 
 .project-descr {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .project-gradient {
-  height: 0.4rem;
+  height: 0.3rem;
   width: 50%;
   margin-bottom: 1rem;
-  background: #7f7fd5;
-  background: linear-gradient(270deg, #91eae4, #86a8e7, #7f7fd5);
+  margin-left: 6px;
+  background: rgb(167, 155, 155);
+  background: linear-gradient(
+    90deg,
+    rgba(167, 155, 155, 1) 20%,
+    rgba(212, 205, 205, 1) 74%
+  );
+}
+
+.project-descr a {
+  color: #3B3B3B;
+  font-family: "Aileron Light", cursive;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0rem;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    to bottom,
+    #000,
+    #000 60%,
+    #EEE3D9 60%,
+    #EEE3D9 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-repeat: no-repeat;
+  transition: background 0.2s ease-out;
+  white-space: nowrap;
+}
+
+.projects-descr:hover {
+  background-position: 0 11px;
+}
+
+.project-span {
+  position: relative;
+}
+
+.project-span:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #d4b6b1;
+  bottom: 10px;
+  margin: 5px;
+  transition: all 0.2s ease-out;
+}
+
+.project-span:hover:before {
+  transform: translateY(8px);
+}
+
+.live-sources {
+  display: flex;
+  margin-top: -30px;
+}
+
+.description {
+  margin-left: 5px;
 }
 
 .img {
@@ -76,6 +139,6 @@
 }
 
 .img:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  transition: box-shadow 0.5s;
-}
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.479);
+  transition: box-shadow 0.4s;
+ }

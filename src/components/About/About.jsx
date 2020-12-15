@@ -12,13 +12,12 @@ const About = () => {
       <div className="col-2">
         <div id="bio-text">
           <h1 className="title-text">
-            Buongiorno! I'm <span className="highlight">Ash</span>.
+            I'm Ash.
           </h1>
           <p>
-            I am a Colorado-based <span className="highlight">software engineer</span> with a soft-spot for helping <span className="highlight">people</span>, a dream to aid the race in <span className="highlight">space exploration</span>, and a resolve to help forge a sustainable future here on 
-            <span className="highlight"> earth</span>.
+            I am a <span className="highlight">software engineer</span> and <span className="highlight">visual storyteller</span> based in Colorado. Since I was young, stories have always held me captive in the way they offer perspective, an avenue to empathize, and their ability to form human connections between the one telling the story and the one reading it. For myself, establishing those connections for my clients or conveying their stories in the is my first and foremost goal. 
           </p>
-          <p>My life has always been about people. I graduated with a degree in Psychology and have a decade's worth of work experience dedicated to bettering the human condition. As a software engineer, that passion persists as I hope to build better and more intuitive technologies to help others embrace their curiosity and further exploration, especially into the unknown.</p>
+          <p>My life has always been about people. I graduated with a degree in Psychology and have a decade's worth of work experience dedicated to bettering the human condition. As a software engineer, that passion persists as I hope to build more intuitive and accessible technologies to help others embrace their curiosity and further exploration, especially into the unknown.</p>
           <p>As a fullstack engineer, I consider myself a skilled listener and team-member, open to and cultivated by  constructive criticism. I have come to love the challenge of building new things with creative partners, but can also execute with equal care to both form and function.</p>
         </div>
       </div>

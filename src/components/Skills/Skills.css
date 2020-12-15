@@ -1,7 +1,8 @@
 .skills-container {
-  width: 100%;
+  width: 70%;
   height: 100vh;
   text-align: center;
+  margin: 0 auto;
 }
 
 .skills-container h4 {
@@ -28,7 +29,6 @@ span {
   flex-flow: row wrap;
   align-items: center;
   font-size: 6rem;
-  margin: 10px 10px;
 }
 
 .skill-title {
